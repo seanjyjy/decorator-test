@@ -1,0 +1,21 @@
+{
+  "name": "decorator-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "decorator-composition": "ts-node decorator-composition.ts",
+    "class-decorator": "ts-node class-decorator.ts",
+    "property-decorator": "ts-node property-decorator.ts",
+    "method-decorator": "ts-node method-decorator.ts",
+    "accessor-decorator": "ts-node accessor-decorator.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
